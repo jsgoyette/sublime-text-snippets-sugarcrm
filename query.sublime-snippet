@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$res = \$db->query("${1:query}");
+while (\$row = \$db->fetchRow(\$res)) {
+
+}
+]]></content>
+	<tabTrigger>query</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

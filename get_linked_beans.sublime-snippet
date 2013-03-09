@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$${1:beans} = \$${2:bean}->get_linked_beans('${3:relationship}', '${4:rel_bean}');
+]]></content>
+	<tabTrigger>get_linked</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

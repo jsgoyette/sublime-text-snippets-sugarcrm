@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1:bean} = new ${1/^./\U$&\E/g}();
+\$${1:bean} = new ${1/^./\U$&\E/}();
 \$${1:bean}->retrieve(${2:id});
 ]]></content>
 	<tabTrigger>bean</tabTrigger>

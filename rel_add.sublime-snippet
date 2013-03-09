@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean}->load_relationship('${2:relationship}');
+\$${1:bean}->${2:relationship}->add(${3:id});
+]]></content>
+	<tabTrigger>rel_add</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
