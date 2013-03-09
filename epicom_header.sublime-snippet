@@ -1,14 +1,14 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /*****************************************
 
-		  ___ _ __(_)__ ___ _ __
-		 / -_) '_ \ / _/ _ \ '  \
-		 \___| .__/_\__\___/_|_|_|
-		     |_|
+          ___ _ __(_)__ ___ _ __
+         / -_) '_ \ / _/ _ \ '  \
+         \___| .__/_\__\___/_|_|_|
+             |_|
 
 *****************************************/
 ]]></content>
-	<tabTrigger>epicom_header</tabTrigger>
-	<scope>source.php</scope>
+    <tabTrigger>epicom_header</tabTrigger>
+    <scope>source.php</scope>
 </snippet>
