@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$${1:bean}->load_relationship('${2:rel_name}');
-\$${2/.*?_?([a-zA-Z]+?)s?_?[0-9]?$/\1s/}${3:} = \$${1:bean}->${2:rel_name}->getBeans();
+\$${3:${2/.*?_?([a-zA-Z]+?)s?_?[0-9]?$/\1s/}} = \$${1:bean}->${2:rel_name}->getBeans();
 ]]></content>
 	<tabTrigger>getbeans</tabTrigger>
 	<scope>source.php</scope>
