@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean}->load_relationship('${2:relationship}');
+\$${2/.*?_?([a-zA-Z]+?)s?_?[0-9]?$/\1/}${3:}_ids = \$${1:bean}->${2:relationship}->get();
+]]></content>
+	<tabTrigger>rel_get</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
