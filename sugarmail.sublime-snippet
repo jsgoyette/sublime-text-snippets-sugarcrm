@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+require_once('include/SugarPHPMailer.php');
+\$emailObj = new Email();
+\$defaults = \$emailObj->getSystemDefaultEmail();
+
+\$mail = new SugarPHPMailer();
+\$mail->setMailerForSystem();
+\$mail->From = \$defaults['email'];
+\$mail->FromName = \$defaults['name'];
+\$mail->Subject = 'Contact Record Update';
+\$mail->ContentType = 'text/html';
+\$mail->Body = 'The contact record for <b>' . \$bean->name . '</b> has been updated.';
+\$mail->prepForOutbound();
+\$mail->AddAddress('whomever@mail.com');
+@\$mail->Send();
+]]></content>
+	<tabTrigger>sugarmail</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

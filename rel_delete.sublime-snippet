@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:bean}->load_relationship('${2:relationship}');
+\$${1:bean}->${2:relationship}->delete(${3:id});
+]]></content>
+	<tabTrigger>rel_delete</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-\$res = \$db->query("${1:query}");
+\$sql = "${1:query}";
+\$res = \$db->query(\$sql);
 while (\$row = \$db->fetchRow(\$res)) {
 	$0
 }

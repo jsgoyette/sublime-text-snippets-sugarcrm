@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/} = new ${1:module}();
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->retrieve(${2:id});
+]]></content>
+	<tabTrigger>bean_retr</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

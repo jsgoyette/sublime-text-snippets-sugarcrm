@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+if (\$${1:bean}->fetched_row['${2:column}'] != \$${1:bean}->${2:column}) {
+	$0
+}
+]]></content>
+	<tabTrigger>if_fetched_row</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
