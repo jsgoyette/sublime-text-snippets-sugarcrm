@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${3:bean}->load_relationship('${4:rel_name}');
+\$${4/.*?_?([a-zA-Z]+?)s?_?[0-9]?$/\1s/} = \$${3:bean}->${4:rel_name}->getBeans(\$params);
+]]></content>
+	<tabTrigger>getbeans</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

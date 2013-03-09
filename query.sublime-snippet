@@ -2,7 +2,7 @@
 	<content><![CDATA[
 \$res = \$db->query("${1:query}");
 while (\$row = \$db->fetchRow(\$res)) {
-
+	$0
 }
 ]]></content>
 	<tabTrigger>query</tabTrigger>
