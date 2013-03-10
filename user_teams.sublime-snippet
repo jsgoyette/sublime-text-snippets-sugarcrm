@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$teamObj = new Team();
+\$teams = \$teamObj->get_teams_for_user(${1:\$current_user});
+]]></content>
+	<tabTrigger>user_teams</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

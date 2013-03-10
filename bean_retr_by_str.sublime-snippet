@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${2:${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}} = BeanFactory::getBean('${1:module}');
+\$${2:${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}}->retrieve_by_string_fields(array('${3:field}' => ${4:value}));
+]]></content>
+	<tabTrigger>bean_retr_by_str</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
