@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${3/.*?_?([a-zA-Z]*?)s?$/\L\1\Es/} = \$${1:bean}->get_linked_beans('${2:relationship}', '${3:rel_bean}');
+\$${4:${3/.*?_?([a-zA-Z]*?)s?$/\L\1\Es/}} = \$${1:bean}->get_linked_beans('${2:relationship}', '${3:rel_bean}');
 ]]></content>
 	<tabTrigger>get_linked</tabTrigger>
 	<scope>source.php</scope>
