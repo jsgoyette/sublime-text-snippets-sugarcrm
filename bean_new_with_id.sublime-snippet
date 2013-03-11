@@ -1,7 +1,9 @@
 <snippet>
 	<content><![CDATA[
 \$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/} = new BeanFactory::getBean('${1:module}');
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->new_with_id = TRUE;
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->id = create_guid();
 ]]></content>
-	<tabTrigger>bean_new</tabTrigger>
+	<tabTrigger>bean_new_with_id</tabTrigger>
 	<scope>source.php</scope>
 </snippet>
