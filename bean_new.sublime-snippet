@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/} = new BeanFactory::getBean('${1:module}');
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/} = BeanFactory::getBean('${1:module}');
 ]]></content>
 	<tabTrigger>bean_new</tabTrigger>
 	<scope>source.php</scope>
