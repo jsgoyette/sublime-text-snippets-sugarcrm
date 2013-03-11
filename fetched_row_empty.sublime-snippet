@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+if (empty(\$${1:bean}->fetched_row)) {
+	$0
+}
+]]></content>
+	<tabTrigger>fetched_row_empty</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
