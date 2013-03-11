@@ -4,6 +4,6 @@ if (\$${1:bean}->fetched_row['${2:column}'] != \$${1:bean}->${2:column}) {
 	$0
 }
 ]]></content>
-	<tabTrigger>fetched_row_if</tabTrigger>
+	<tabTrigger>fetched_row_unequal</tabTrigger>
 	<scope>source.php</scope>
 </snippet>

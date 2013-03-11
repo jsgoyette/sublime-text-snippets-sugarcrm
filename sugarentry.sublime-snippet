@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+if (!defined('sugarEntry') || !sugarEntry) define('sugarEntry', true);
+]]></content>
+	<tabTrigger>sugarentry</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

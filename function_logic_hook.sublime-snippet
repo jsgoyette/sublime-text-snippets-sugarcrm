@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:function_name} (&\$bean, \$event, \$args) {
+	$0
+}
+]]></content>
+	<tabTrigger>function_logic_hook</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+class Custom${1:Module}${2:Detail}View extends ${1:module}${2:Detail}View {
+
+	public function __construct() {
+		parent::__construct();
+	}
+
+	public function display() {
+		$0
+		parent::display();
+	}
+}
+]]></content>
+	<tabTrigger>sugarview</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
