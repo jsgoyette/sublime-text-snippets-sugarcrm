@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Module}Hooks {
+
+	public function ${2:before_save} (\$bean, \$event, \$args) {
+		// \$this->${3:func_name}($bean);
+	}
+
+	private function ${3:func_name} (&\$bean) {
+		$0
+	}
+}
+
+]]></content>
+	<tabTrigger>logic_hook</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
