@@ -1,12 +1,14 @@
 <snippet>
 	<content><![CDATA[
-class Custom${1:Module}View${2:Detail} extends ${1:module}View${2:Detail} {
-
-	public function __construct() {
+class Custom${1:Module}View${2:Detail} extends ${1:module}View${2:Detail}
+{
+	public function __construct()
+    {
 		parent::__construct();
 	}
 
-	public function display() {
+	public function display()
+    {
 		$0
 		parent::display();
 	}
