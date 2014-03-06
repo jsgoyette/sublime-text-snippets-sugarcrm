@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+\$stmt = \$db->database->prepare("${1:\$sql}");
+\$stmt->bind_param("s", ${2:\$id});
+\$stmt->execute();
+\$stmt->store_result();
+\$stmt->bind_result(${3:\$name});
+while (\$stmt->fetch()) {
+    ${0:echo \$name;}
+}
+\$stmt->free_result();
+\$stmt->close();
+]]></content>
+    <tabTrigger>stmt</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

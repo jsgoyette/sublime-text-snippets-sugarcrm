@@ -9,7 +9,7 @@ class ${1:Module}Hooks
 
 	private function ${3:func_name}(&\$bean)
     {
-		$0
+		${0:echo \$id;}
 	}
 }
 ]]></content>
