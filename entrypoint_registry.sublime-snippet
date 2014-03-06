@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$entry_point_registry['${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}'] = array(
+    'file' => 'custom/epicom/${1/[_-]([a-z])/\u$1/g}.php',
+    'auth' => true
+);
+]]></content>
+	<tabTrigger>entrypoint_registry</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
