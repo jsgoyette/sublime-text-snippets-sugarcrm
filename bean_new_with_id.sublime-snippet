@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/} = BeanFactory::getBean('${1:module}');
-\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->new_with_id = TRUE;
+\$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->new_with_id = true;
 \$${1/.*?_?([a-zA-Z]*?)s?$/\L\1\E/}->id = create_guid();
 ]]></content>
 	<tabTrigger>bean_new_with_id</tabTrigger>
