@@ -2,12 +2,12 @@
 	<content><![CDATA[
 class ${1:Module}Hooks
 {
-	public function ${2:before_save}(&\$bean, \$event, \$args)
+	public function ${2:before_save}(\$bean, \$event, \$args)
     {
 		\$this->${3:func_name}(\$bean);
 	}
 
-	private function ${3:func_name}(&\$bean)
+	private function ${3:func_name}(\$bean)
     {
 		${0:echo \$id;}
 	}

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-public function ${1:function_name}(&\$bean, \$event, \$args)
+public function ${1:function_name}(\$bean, \$event, \$args)
 {
 	$0
 }
